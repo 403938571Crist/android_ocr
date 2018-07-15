@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">StudentOCR</string>
+    <string name="idCardLabel">身份证识别</string>
+
 </resources>

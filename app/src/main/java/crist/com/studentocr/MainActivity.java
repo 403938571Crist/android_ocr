@@ -54,6 +54,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(intent, REQUEST_CODE_ACCURATE_BASIC);
             }
         });
+
+        // 身份证识别
+        findViewById(R.id.idcard_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, IDCardActivity.class);
+                startActivity(intent);
+            }
+        });
         initAccessTokenWithAkSk();
     }
 

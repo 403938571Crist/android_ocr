@@ -25,4 +25,12 @@
         tools:layout_editor_absoluteY="0dp"
         tools:layout_editor_absoluteX="8dp" />
 
+    <Button
+        android:layout_below="@+id/accurate_basic_button"
+        android:text="身份证识别"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idcard_button"
+        tools:ignore="HardcodedText"/>
+
 </RelativeLayout>
